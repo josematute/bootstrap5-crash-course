@@ -16,7 +16,8 @@
 		<title>Bootstrap Tutorial</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
 			<div class="container">
 				<a href="#" class="navbar-brand">Bootstrap Tutorial</a>
 
@@ -25,7 +26,7 @@
 				</button>
 
 				<div class="collapse navbar-collapse" id="navmenu">
-					<ul class="navbar-nav">
+					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
 							<a href="#learn" class="nav-link">What you'll learn</a>
 						</li>
@@ -39,6 +40,27 @@
 				</div>
 			</div>
 		</nav>
+
+		<!-- Showcase -->
+		<section class="bg-dark text-light p-5 text-center text-sm-start">
+			<div class="container">
+				<!-- It will not display rows(flex) until the small breakpoint hits -->
+				<div class="d-sm-flex align-items-center justify-content-between">
+					<div>
+						<div>
+							<h1>Become a <span class="text-warning">Web Developer</span></h1>
+							<!-- Margin in the y axis of level 4 -->
+							<p class="lead my-4">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum eum perspiciatis architecto nostrum nesciunt sequi possimus, ad quisquam
+								aliquid dignissimos illum necessitatibus veritatis recusandae explicabo quia? Nemo, aperiam! Perspiciatis, enim?
+							</p>
+							<button class="btn btn-primary btn-lg mb-4">Start Enrollment</button>
+						</div>
+						<img class="img-fluid w-50 d-sm-block" src="img/mern.jpg" alt="MERN logos" />
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Right before end of body, Bootstrap's JS -->
 		<script
